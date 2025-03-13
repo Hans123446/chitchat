@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\FollowController;
-
+// Hans was here
 // Admin Related Routes
 Route::get('/admin-page', function() {
     return 'Only admins are allowed to access this page.';

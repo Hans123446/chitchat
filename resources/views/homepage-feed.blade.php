@@ -2,7 +2,7 @@
     <div class="container py-md-5 container--narrow">
         <!-- Read as 'unless $posts is not empty, display them' -->
         @unless ($posts->isEmpty())
-            <h2 class="text-center mb-4">The latest from those you follow</h2>
+            <h2 class="text-center mb-4">Hans The latest from those you follow</h2>
             <div class="list-group">
                 @foreach ($posts as $post)
                     <x-post :post="$post" />
